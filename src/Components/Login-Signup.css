@@ -1,0 +1,35 @@
+/* Login-Signup.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(#2a00b7, #42006c); 
+}
+
+.landing-content {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+
+.submit-container {
+    display: flex;
+    gap: 20px;
+}
+
+.submit {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0FA47F;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    background: #2a00b7;
+}
